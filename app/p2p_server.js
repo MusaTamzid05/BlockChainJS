@@ -42,7 +42,6 @@ class P2pServer {
     messageHandler(socket) {
         socket.on("message" , message => {
 
-            console.log("We have a message");
             const data = JSON.parse(message);
 
             switch(data.type) {
