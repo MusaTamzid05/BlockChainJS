@@ -14,6 +14,7 @@ class TransactionPool {
         } else {
             this.transactions.push(transaction);
         }
+
     }
 
     existingTransaction(address) {
